@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOUNDWAVE MAR • Tu música, sin límites</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="barra-progreso" id="barraProgreso"></div>
+<button class="btn-abrir" id="btnMenu" aria-label="Abrir menú">☰</button>
+<button class="btn-arriba" id="btnArriba">↑</button>
+
+<aside class="sidebar" id="sidebar">
+<div class="logo">SOUNDWAVE <span>MAR</span></div>
+<p class="sidebar-sub">Tu música, sin límites • Diseño Profesional</p>
+<nav class="nav-menu">
+<a href="#" class="nav-link activo">🏠 Inicio</a>
+<a href="#artistas" class="nav-link">⭐ Top Artistas</a>
+<a href="#musica" class="nav-link">🎵 Nuevos Lanzamientos</a>
+<a href="#videos" class="nav-link">🎬 Videos Destacados</a>
+<a href="#premium" class="nav-link">💎 Premium</a>
+<a href="#suscripcion" class="nav-link">✦ Suscribirse</a>
+</nav>
+<div class="sidebar-footer">SOUNDWAVE MAR<br><span>Premium • 2026 • Diseño Profesional</span></div>
+</aside>
+<div class="overlay" id="overlay"></div>
+
+<main class="main">
+  <header class="top-bar">
+    <div class="breadcrumb">SOUNDWAVE &nbsp;&gt;&nbsp; Inicio &nbsp;&gt;&nbsp; Descubrir</div>
+    <a href="#premium" class="btn-top">PRUEBA PREMIUM</a>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Tu música,<br><span class="texto-degradado">sin límites.</span></h1>
+      <p>Explora una dimensión sonora de alta fidelidad donde el arte digital y la ingeniería acústica se fusionan para entregar una experiencia premium.</p>
+      <div class="hero-btns">
+        <a href="#premium" class="btn-primary">Ver Premium</a>
+        <a href="#musica" class="btn-secundario">Escuchar ahora</a>
+      </div>
+      <div class="hero-stats"><span><b>8</b> Artistas Top</span><span><b>8</b> Lanzamientos</span><span><b>100%</b> Premium</span></div>
+    </div>
+    <div class="hero-mi-logo"><img src="logo.JPEG" alt="Logo"><div class="mini-card"><b>Ahora sonando</b><span>SOUNDWAVE MAR</span></div></div>
+  </section>
+
+  <section id="artistas" class="seccion-premium">
+    <div class="titulo-row"><div><h2 class="titulo-seccion">Top Artistas</h2><p class="subtitulo-seccion">Los artistas más escuchados de la semana</p></div><span class="ver-todo">Actualizado 2026</span></div>
+    <div class="grid-artistas" id="gridArtistas">
+      <div class="card-artista" data-nombre="kevin kaarl"><div class="luz-artista luz-1"></div><img src="img_ artista_kevin kaaarl.JPEG"><h3>Kevin Kaarl</h3><p>Folk / Indie</p></div>
+      <div class="card-artista" data-nombre="carla morrison"><div class="luz-artista luz-2"></div><img src="img_artista_Carla Morrison.JPG"><h3>Carla Morrison</h3><p>Pop</p></div>
+      <div class="card-artista" data-nombre="canserbero"><div class="luz-artista luz-3"></div><img src="img_artista_canserbero.JFIF"><h3>Canserbero</h3><p>Hip Hop</p></div>
+      <div class="card-artista" data-nombre="charles ans"><div class="luz-artista luz-4"></div><img src="img_artista_charles ans.JPG"><h3>Charles Ans</h3><p>Rap</p></div>
+      <div class="card-artista" data-nombre="caifanes"><div class="luz-artista luz-5"></div><img src="img_artista_Caifanes.JFIF"><h3>Caifanes</h3><p>Rock</p></div>
+      <div class="card-artista" data-nombre="creedence"><div class="luz-artista luz-6"></div><img src="img_artista_Creedence Clearwater.JPG"><h3>Creedence</h3><p>Rock Clásico</p></div>
+      <div class="card-artista" data-nombre="kali uchis"><div class="luz-artista luz-7"></div><img src="img_artista_Deorro.JPG"><h3>Deorro</h3><p>R&B / Pop Latino</p></div>
+      <div class="card-artista" data-nombre="leon larregui"><div class="luz-artista luz-8"></div><img src="img_artista_Humbe.JFIF"><h3>Humbe</h3><p>Rock / Alternativo</p></div>
+    </div>
+  </section>
+
+  <section id="musica" class="seccion-premium">
+    <h2 class="titulo-seccion">Nuevos Lanzamientos</h2>
+    <p class="subtitulo-seccion">Escucha los estrenos en alta calidad • Recomendado: Kevin Kaarl - Adiós</p>
+    <div class="grid-premium">
+      <div class="card-premium"><img class="img-media" src="img_portada_kevin kaaarl.JFIF"><h3 class="media-titulo">Adiós</h3><p class="media-subtitulo">Kevin Kaarl</p><audio controls src="Audio_Kevin Kaaarl.MPEG"></audio></div>
+      <div class="card-premium"><img class="img-media" src="img_portada_carla morrison.JPG"><h3 class="media-titulo">Déjenme Llorar</h3><p class="media-subtitulo">Carla Morrison</p><audio controls src="Audio_Carla Morrison.MP4"></audio></div>
+      <div class="card-premium"><img class="img-media" src="img_portada_canserbero.WEBP"><h3 class="media-titulo">De La Vida Como una Pelicula</h3><p class="media-subtitulo">Canserbero</p><audio controls src="Audio_Canserbero.MPEG"></audio></div>
+      <div class="card-premium"><img class="img-media" src="img_portada_charles ans.AVIF"><h3 class="media-titulo">Mis Ojos No Podian Ver</h3><p class="media-subtitulo">Charles Ans</p><audio controls src="Audio_Charles Ans.MP4"></audio></div>
+      <div class="card-premium"><img class="img-media" src="img_portada_caifanes.AVIF"><h3 class="media-titulo">La Celúla Que Explota</h3><p class="media-subtitulo">Caifanes</p><audio controls src="Audio_Caifanes.MP4"></audio></div>
+      <div class="card-premium"><img class="img-media" src="img_portada Creedence.JPG"><h3 class="media-titulo">Have You Ever Seen</h3><p class="media-subtitulo">Creedence</p><audio controls src="audio_creedence.mp4"></audio></div>
+      <div class="card-premium"><img class="img-media" src="img_portada_Deorro.JFIF"><h3 class="media-titulo">Perdóname</h3><p class="media-subtitulo">Deorro</p><audio controls src="Audio_Deorro.MP4"></audio></div>
+      <div class="card-premium destacado-musica"><span class="tag-musica">✦ DESTACADO</span><img class="img-media" src="img_portada_Humbe.JFIF"><h3 class="media-titulo">Amor De Cine</h3><p class="media-subtitulo">Humbe</p><audio controls src="Audio_Humbe.mp4"></audio></div>
+    </div>
+  </section>
+
+  <div class="separacion-videos" id="videos"><h2 class="titulo-seccion">| Videos Destacados</h2><p class="subtitulo-seccion">Videos oficiales en alta definición</p></div>
+  <div class="grid-general">
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_kevin kaaarl.JFIF" src="video_kevin kaaarl.mp4"></video></div><h3 class="media-titulo">Kevin Kaarl</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_2_carla morrison.JFIF" src="video_carla morrison.mp4"></video></div><h3 class="media-titulo">Carla Morrison</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_canserbero.WEBP" src="video_canserbero.mp4"></video></div><h3 class="media-titulo">Canserbero</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_2_charles ans.JFIF" src="video_charles ans.mp4"></video></div><h3 class="media-titulo">Charles Ans</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_caifanes.AVIF" src="video_caifanes.mp4"></video></div><h3 class="media-titulo">Caifanes</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_2_creedence.JFIF" src="video_creedence.mp4"></video></div><h3 class="media-titulo">Creedence</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_2_Deorro.JPG" src="video_Deorro.mp4"></video></div><h3 class="media-titulo">Deorro</h3><p class="media-subtitulo">Video oficial</p></div>
+    <div class="card-video destacado-video"><div class="video-efecto"><video controls preload="metadata" poster="img_portada_2_Humbe.JFIF" src="video_Humbe.mp4"></video></div><h3 class="media-titulo">Humbe</h3><p class="media-subtitulo">Video oficial</p></div>
+  </div>
+
+  <section id="premium" class="seccion-premium">
+    <h2 class="titulo-seccion">Plan Premium</h2>
+    <p class="texto-premium">Toca un plan para elegirlo, se pone blanquito y queda seleccionado.</p>
+    <p class="plan-elegido" id="planElegido">Plan elegido: <b>Ninguno todavía, elige uno 👆</b></p>
+    <div class="grid-premium-plan">
+      <div class="card-plan" data-plan="Mensual - $99 / mes"><h3>Mensual</h3><p class="precio">$99 <span>/ mes</span></p><ul><li>✓ Sin anuncios</li><li>✓ Calidad alta</li><li>✓ 1 cuenta</li></ul><span class="btn-plan">Elegir plan</span></div>
+      <div class="card-plan destacado" data-plan="Trimestral - $249 / 3 meses"><span class="etiqueta">★ MÁS POPULAR ★</span><h3>Trimestral</h3><p class="precio">$249 <span>/ 3 meses</span></p><ul><li>✓ Sin anuncios</li><li>✓ Calidad premium</li><li>✓ Descargas offline</li></ul><span class="btn-plan">Elegir plan</span></div>
+      <div class="card-plan" data-plan="Anual - $899 / año"><h3>Anual</h3><p class="precio">$899 <span>/ año</span></p><ul><li>✓ Todo lo premium</li><li>✓ 2 cuentas</li><li>✓ Soporte prioritario</li></ul><span class="btn-plan">Elegir plan</span></div>
+    </div>
+  </section>
+
+  <section id="suscripcion" class="seccion-premium">
+    <div class="tarjeta-form">
+      <div class="form-header"><span class="form-icon">✦</span><h2 class="titulo-form">Suscríbete a Premium</h2><p class="subtitulo-form">Completa todos los campos para validar tus datos de forma segura.</p>
+      <div class="pasos"><span class="paso activo">1 Datos personales</span><span class="paso">2 Validar</span><span class="paso">3 Premium</span></div>
+      </div>
+      <form id="formulario" novalidate>
+        <p class="seccion-form">Datos personales</p>
+        <div class="campo">
+          <label for="nombre">Nombre <span class="req">*</span></label>
+          <input type="text" id="nombre" placeholder="Escribe tu nombre" maxlength="100" oninput="this.value=this.value.toUpperCase().replace(/[^A-ZÁÉÍÓÚÑÜ ]/g,'')">
+          <small class="ejemplo">Ej: Ana María</small><small class="mensaje" id="error-nombre"></small>
+        </div>
+        <div class="campo">
+          <label for="apellidoPaterno">Apellido paterno <span class="req">*</span></label>
+          <input type="text" id="apellidoPaterno" placeholder="Escribe tu apellido paterno" maxlength="100" oninput="this.value=this.value.toUpperCase().replace(/[^A-ZÁÉÍÓÚÑÜ ]/g,'')">
+          <small class="ejemplo">Ej: González</small><small class="mensaje" id="error-apellidoPaterno"></small>
+        </div>
+        <div class="campo">
+          <label for="apellidoMaterno">Apellido materno <span class="req">*</span></label>
+          <input type="text" id="apellidoMaterno" placeholder="Escribe tu apellido materno" maxlength="100" oninput="this.value=this.value.toUpperCase().replace(/[^A-ZÁÉÍÓÚÑÜ ]/g,'')">
+          <small class="ejemplo">Ej: Pérez</small><small class="mensaje" id="error-apellidoMaterno"></small>
+        </div>
+        <div class="campo">
+          <label for="email">Email <span class="req">*</span></label>
+          <input type="text" id="email" placeholder="Escribe tu correo" autocomplete="email">
+          <small class="ejemplo">Ej: ana@gmail.com</small><small class="mensaje" id="error-email"></small>
+        </div>
+
+        <p class="seccion-form">Fecha de nacimiento • Solo 18 años en adelante</p>
+        <!-- BLOQUE 1 - FECHA CON SELECTS -->
+        <div class="campo fecha-pro">
+          <label>Fecha de nacimiento <span class="req">*</span> <span class="badge-18">+18</span></label>
+          <div class="fecha-box">
+            <div class="fecha-item"><span>Día</span><select id="diaNacimiento"><option value="">Día</option></select></div>
+            <div class="fecha-item"><span>Mes</span><select id="mesNacimiento"><option value="">Mes</option></select></div>
+            <div class="fecha-item"><span>Año</span><select id="anioNacimiento"><option value="">Año</option></select></div>
+          </div>
+          <small class="ejemplo">Ej: 15 • Mayo • 2001 &nbsp;•&nbsp; Debes tener 18 años o más</small>
+          <small class="mensaje" id="error-fechaNacimiento"></small>
+          <div class="edad-preview" id="edadPreview">Tu edad se calculará automáticamente • Solo mayores de 18 años</div>
+        </div>
+
+        <!-- BLOQUE 2 - SOLO SE VINCULA SI ERES MAYOR DE 18 -->
+        <div class="campo fecha-pro fecha-vinculada">
+          <label>Fecha de nacimiento confirmada <span class="req">*</span> <span class="badge-vinculado">✓ SOLO +18 VINCULADO</span></label>
+          <div class="fecha-box">
+            <div class="fecha-item"><span>Fecha completa</span><input type="text" id="fechaNacimiento" placeholder="Solo se llena si eres +18" readonly></div>
+            <div class="fecha-item"><span>Edad</span><input type="text" id="edad" placeholder="Solo se llena si eres +18" readonly></div>
+          </div>
+          <small class="ejemplo">Solo se vincula si tienes 18 años o más • Si eres menor, aquí NO se llena nada</small>
+          <small class="mensaje" id="error-edad"></small>
+        </div>
+
+        <p class="seccion-form">Datos de pago</p>
+        <div class="campo cuenta-pro">
+          <label for="cuentaBancaria">Número de cuenta bancaria <span class="badge-16">16 DÍGITOS</span> <span class="req">*</span></label>
+          <div class="input-con-contador">
+            <input type="text" id="cuentaBancaria" placeholder="1234 5678 9012 3456" inputmode="numeric" maxlength="19" autocomplete="off">
+            <span class="contador" id="contadorCuenta">0 / 16</span>
+          </div>
+          <div class="barra-cuenta"><div class="progreso-cuenta" id="progresoCuenta"></div></div>
+          <small class="ejemplo">Ej: 16 dígitos exactos • Solo números</small>
+          <small class="mensaje" id="error-cuentaBancaria"></small>
+        </div>
+
+        <button type="submit" class="btn-premium">Validar suscripción Premium →</button>
+        <p class="nota-seguridad">🔒 Tus datos están protegidos y solo se usan para validar tu suscripción.</p>
+        <p id="mensaje-general" class="mensaje-general"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer-premium"><p>SOUNDWAVE MAR © 2026 | ELABORADO POR: MARÍA GUADALUPE HUERTA RAMÍREZ.</p><p class="footer-sub">• Experiencia Premium</p></footer>
+
+  <script>
+  const btnMenu = document.getElementById('btnMenu');
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('overlay');
+  let menuAbierto = false;
+  function abrirMenu(){ menuAbierto=true; sidebar.classList.add('abierto'); overlay.classList.add('mostrar'); btnMenu.textContent='✕'; btnMenu.classList.add('activo'); }
+  function cerrarMenu(){ menuAbierto=false; sidebar.classList.remove('abierto'); overlay.classList.remove('mostrar'); btnMenu.textContent='☰'; btnMenu.classList.remove('activo'); }
+  function toggleMenu(){ menuAbierto ? cerrarMenu() : abrirMenu(); }
+  btnMenu.addEventListener('click', (e)=>{ e.stopPropagation(); toggleMenu(); });
+  overlay.addEventListener('click', (e)=>{ e.stopPropagation(); cerrarMenu(); });
+  document.addEventListener('click', (e)=>{
+    if(e.target.closest('.sidebar')) return;
+    if(e.target.closest('#btnMenu')) return;
+    if(e.target.closest('.nav-link')) return;
+    const esZonaLibre = e.target.closest('.tarjeta-form, form, input, select, textarea, audio, video, .card-artista, .card-premium, .card-video, .card-plan, .btn-premium, .btn-primary, .btn-secundario, .btn-top, .btn-arriba, .btn-plan');
+    if(esZonaLibre){ if(menuAbierto) cerrarMenu(); return; }
+    toggleMenu();
+  });
+  document.querySelectorAll('.nav-link').forEach(l=>l.addEventListener('click', (e)=>{
+    e.stopPropagation();
+    document.querySelectorAll('.nav-link').forEach(x=>x.classList.remove('activo')); l.classList.add('activo'); cerrarMenu();
+    const href=l.getAttribute('href');
+    if(href && href.startsWith('#') && href.length>1){ const d=document.querySelector(href); if(d) d.scrollIntoView({behavior:'smooth'}); }
+    else if(href==='#'){ window.scrollTo({top:0,behavior:'smooth'}); }
+  }));
+  document.querySelectorAll('.card-artista').forEach(card=>{
+    card.addEventListener('click', (e)=>{ e.stopPropagation(); document.getElementById('musica').scrollIntoView({behavior:'smooth'}); });
+  });
+  const barra = document.getElementById('barraProgreso');
+  const btnArriba = document.getElementById('btnArriba');
+  window.addEventListener('scroll', ()=>{
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    barra.style.width = pct + '%';
+    btnArriba.style.display = h.scrollTop > 500 ? 'grid' : 'none';
+  });
+  btnArriba.addEventListener('click', (e)=>{ e.stopPropagation(); window.scrollTo({top:0,behavior:'smooth'}); });
+  document.querySelectorAll('audio, video').forEach(medio => {
+    medio.addEventListener('play', () => {
+      document.querySelectorAll('audio, video').forEach(otro => { if (otro !== medio) otro.pause(); });
+    });
+    if (medio.tagName === 'VIDEO') {
+      medio.addEventListener('pause', () => { if (!medio.ended) medio.load(); });
+      medio.addEventListener('ended', () => { medio.load(); });
+    }
+  });
+  const planes = document.querySelectorAll('.card-plan');
+  const planElegido = document.getElementById('planElegido');
+  planes.forEach(plan=>{
+    plan.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      planes.forEach(p=>p.classList.remove('seleccionado'));
+      plan.classList.add('seleccionado');
+      planElegido.innerHTML = 'Plan elegido: <b>✓ ' + plan.dataset.plan + '</b>';
+      document.getElementById('suscripcion').scrollIntoView({behavior:'smooth'});
+    });
+  });
+  const observer = new IntersectionObserver((entries)=>{
+    entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('visible'); } });
+  }, {threshold:0.12});
+  document.querySelectorAll('.card-artista, .card-premium, .card-video, .card-plan, .hero').forEach(el=>{ el.classList.add('reveal'); observer.observe(el); });
+  </script>
+  <script src="formulario.js"></script>
+</main>
+</body>
+</html>
